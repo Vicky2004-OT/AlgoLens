@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build:prod": "npm install --legacy-peer-deps && npm run build"
+    "build:prod": "npm install --legacy-peer-deps && npm run build",
+    "start": "npx serve dist -s -l 3000"
   },
   "dependencies": {
     "react": "^18.2.0",
